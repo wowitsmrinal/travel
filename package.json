@@ -1,0 +1,23 @@
+{
+  "name": "travel",
+  "version": "1.0.0",
+  "description": "Travel maps for your trips",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sb2nov/travel.git"
+  },
+  "keywords": [
+    "travel",
+    "d3"
+  ],
+  "author": "Sourabh Bajaj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sb2nov/travel/issues"
+  },
+  "homepage": "https://github.com/sb2nov/travel#readme",
+  "dependencies": {
+    "datamaps": "^0.4.4"
+  }
+}
