@@ -25,7 +25,6 @@ $(function () {
         'in-2984',
         'in-jk',
         'in-hr',
-        'in-ct',
         'in-tn',
         'in-ap',
         'in-ka',
@@ -70,6 +69,7 @@ $(function () {
 
     var india_data =  Highcharts.geojson(Highcharts.maps['countries/in/custom/in-all-disputed']);
 
+    console.log(india_data);
 
     // Set drilldown pointers
     $.each(world_data, function (i) {
