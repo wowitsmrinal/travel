@@ -3,26 +3,20 @@ $(function () {
 
     const visited_countries = [
         'in',  // India
-        'np',  // Nepal
-        'th',  // Thailand
         'sg',  // Singapore
         'my',  // Malaysia
-        'gb',  // Britain
         'us',  // US
         'ch',  // Switzerland
-        'de',  // Germany
         'fr',  // France
-        'is',  // Iceland
         'ae',  // UAE
-        'ca',  // Canada
-        'au'   // Australia
+        'il',  // Israel
+        'be',  // Belgium
+        'nl',  // Netherlands
+        'it',  // Italy
     ]
 
     const visited_states_in_india = [
         'in-wb',
-        'in-pb',
-        'in-ga',
-        'in-2984',
         'in-jk',
         'in-hr',
         'in-tn',
@@ -37,22 +31,19 @@ $(function () {
         'in-ut',
         'in-jh',
         'in-ch',
-        'in-br'
+        'in-br',
+        'in-sk',
+        'in-an'
     ]
 
     const visited_states_in_us = [
-        'us-ma',
-        'us-ca',
-        'us-wa',
-        'us-or',
-        'us-wi',
-        'us-nv',
-        'us-sc',
-        'us-ny',
-        'us-nj',
-        'us-fl',
-        'us-ga',
-        'us-az'
+      'us-pa',
+      'us-ny',
+      'us-dc',
+      'us-il',
+      'us-ma',
+      'us-nh',
+      'us-nj  '
     ];
 
     function getDrilldown(data, visited) {
@@ -121,7 +112,7 @@ $(function () {
             }
         },
         title : {
-            text : 'Around the world!!',
+            text : 'Around the world',
         },
 
         subtitle: {
