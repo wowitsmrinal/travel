@@ -43,7 +43,9 @@ $(function () {
       'us-ma',
       'us-nh',
       'us-md',
-      'us-nj  '
+      'us-ca',
+      'us-wa',
+      'us-nj'
     ];
 
     function getDrilldown(data, visited) {
