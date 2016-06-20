@@ -42,6 +42,7 @@ $(function () {
       'us-dc',
       'us-il',
       'us-ma',
+      'us-nv',
       'us-nh',
       'us-nj  '
     ];
