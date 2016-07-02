@@ -36,6 +36,9 @@ $(function () {
     ]
 
     const visited_states_in_us = [
+      'us-nv',
+      'us-az',
+      'us-ut',
       'us-pa',
       'us-ny',
       'us-dc',
