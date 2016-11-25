@@ -3,7 +3,7 @@ $(function () {
 
     const visited_countries = [
         'in',  // India
-        'sg',  // Singapore
+        'ca',  // Canada
         'my',  // Malaysia
         'us',  // US
         'ch',  // Switzerland
