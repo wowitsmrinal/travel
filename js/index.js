@@ -12,6 +12,7 @@ $(function () {
         'be',  // Belgium
         'nl',  // Netherlands
         'it',  // Italy
+        'ca',  // Canada
     ]
 
     const visited_states_in_india = [
