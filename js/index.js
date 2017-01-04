@@ -49,7 +49,10 @@ $(function () {
       'us-md',
       'us-ca',
       'us-wa',
-      'us-nj'
+      'us-nj',
+      'us-nc',
+      'us-ga',
+      'us-fl'
     ];
 
     function getDrilldown(data, visited) {
