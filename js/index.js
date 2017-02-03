@@ -33,6 +33,7 @@ $(function () {
         'in-ch',
         'in-br',
         'in-sk',
+        'in-kl',
         'in-an'
     ]
 
