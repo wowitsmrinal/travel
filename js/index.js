@@ -34,8 +34,7 @@ $(function () {
         'in-br',
         'in-sk',
         'in-kl',
-        'in-an',
-        'in-2984'
+        'in-an'
     ]
 
     const visited_states_in_us = [
