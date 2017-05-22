@@ -13,6 +13,10 @@ $(function () {
         'nl',  // Netherlands
         'it',  // Italy
         'ca',  // Canada
+        'tr',  // Turkey
+        'ma',  // Morocco
+        'gr',  // Greece
+        'va'   // Vatican City
     ]
 
     const visited_states_in_india = [
@@ -53,6 +57,9 @@ $(function () {
       'us-nj',
       'us-nc',
       'us-ga',
+      'us-tx',
+      'us-la',
+      'us-tn',
       'us-fl'
     ];
 
