@@ -17,7 +17,7 @@ $(function () {
         'ma',  // Morocco
         'gr',  // Greece
         'va',  // Vatican City
-        'sa',  // South Africa
+        'za',  // South Africa
         'na',  // Namibia
         'ke',  // Kenya
         'tz'   // Tanzania
