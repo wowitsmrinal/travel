@@ -16,7 +16,11 @@ $(function () {
         'tr',  // Turkey
         'ma',  // Morocco
         'gr',  // Greece
-        'va'   // Vatican City
+        'va',  // Vatican City
+        'sa',  // South Africa
+        'na',  // Namibia
+        'ke',  // Kenya
+        'tz'   // Tanzania
     ]
 
     const visited_states_in_india = [
