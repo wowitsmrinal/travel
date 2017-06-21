@@ -20,7 +20,8 @@ $(function () {
         'za',  // South Africa
         'na',  // Namibia
         'ke',  // Kenya
-        'tz'   // Tanzania
+        'tz',  // Tanzania
+        'eg'   // Egypt 
     ]
 
     const visited_states_in_india = [
