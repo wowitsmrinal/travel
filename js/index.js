@@ -15,7 +15,6 @@ $(function () {
         'ca',  // Canada
         'tr',  // Turkey
         'ma',  // Morocco
-        'gr',  // Greece
         'va',  // Vatican City
         'za',  // South Africa
         'na',  // Namibia
