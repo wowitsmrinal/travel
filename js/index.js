@@ -3,24 +3,26 @@ $(function () {
 
     const visited_countries = [
         'in',  // India
-        'my',  // Malaysia
-        'us',  // US
-        'ch',  // Switzerland
-        'fr',  // France
         'ae',  // UAE
+        'ch',  // Switzerland
         'il',  // Israel
+        'fr',  // France
         'be',  // Belgium
         'nl',  // Netherlands
         'it',  // Italy
-        'ca',  // Canada
-        'tr',  // Turkey
-        'ma',  // Morocco
+        'my',  // Malaysia
         'va',  // Vatican City
+        'us',  // US
+        'ca',  // Canada
         'za',  // South Africa
         'na',  // Namibia
         'ke',  // Kenya
         'tz',  // Tanzania
-        'eg'   // Egypt 
+        'tr',  // Turkey
+        'ma',  // Morocco
+        'eg',  // Egypt
+        'mx',  // Mexico
+        'cu'   // Cuba
     ]
 
     const visited_states_in_india = [
