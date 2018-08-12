@@ -22,7 +22,8 @@ $(function () {
         'ma',  // Morocco
         'eg',  // Egypt
         'mx',  // Mexico
-        'cu'   // Cuba
+        'cu',  // Cuba
+        'pe',  // Peru
     ]
 
     const visited_states_in_india = [
