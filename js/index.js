@@ -67,7 +67,8 @@ $(function () {
       'us-tx',
       'us-la',
       'us-tn',
-      'us-fl'
+      'us-fl',
+      'us-or'
     ];
 
     function getDrilldown(data, visited) {
