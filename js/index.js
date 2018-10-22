@@ -10,8 +10,8 @@ $(function () {
         'be',  // Belgium
         'nl',  // Netherlands
         'it',  // Italy
-        'my',  // Malaysia
         'va',  // Vatican City
+        'my',  // Malaysia
         'us',  // US
         'ca',  // Canada
         'za',  // South Africa
@@ -24,6 +24,8 @@ $(function () {
         'mx',  // Mexico
         'cu',  // Cuba
         'pe',  // Peru
+        'ar',  // Argentina
+        'cl',  // Chile
     ]
 
     const visited_states_in_india = [
@@ -45,7 +47,8 @@ $(function () {
         'in-br',
         'in-sk',
         'in-kl',
-        'in-an'
+        'in-an',
+        'in-gj'
     ]
 
     const visited_states_in_us = [
