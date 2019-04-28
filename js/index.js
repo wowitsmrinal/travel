@@ -26,6 +26,7 @@ $(function () {
         'pe',  // Peru
         'ar',  // Argentina
         'cl',  // Chile
+        'uk',  // United Kingdom
     ]
 
     const visited_states_in_india = [
