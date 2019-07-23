@@ -1,7 +1,7 @@
 $(function () {
     const property = 'hc-key';
 
-    const visited_countries = [
+    const visited_countries = [ // subtract 4
         'in',  // India
         'ae',  // UAE
         'ch',  // Switzerland
@@ -27,6 +27,7 @@ $(function () {
         'ar',  // Argentina
         'cl',  // Chile
         'gb',  // United Kingdom
+        'hr',  // Croatia
     ]
 
     const visited_states_in_india = [
