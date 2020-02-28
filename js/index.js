@@ -76,7 +76,8 @@ $(function () {
       'us-tn', // Tennessee
       'us-or', // Oregon
       'us-co', // Colorado
-      'us-hi'  // Hawaii
+      'us-hi', // Hawaii
+      'us-ak'  // Alaska  
     ];
 
     function getDrilldown(data, visited) {
