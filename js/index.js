@@ -1,34 +1,34 @@
-$(function () {
+$(function() {
     const property = 'hc-key';
 
     const visited_countries = [ // subtract 4
-        'in',  // India
-        'ae',  // UAE
-        'ch',  // Switzerland
-        'il',  // Israel
-        'fr',  // France
-        'be',  // Belgium
-        'nl',  // Netherlands
-        'it',  // Italy
-        'va',  // Vatican City
-        'my',  // Malaysia
-        'us',  // US
-        'ca',  // Canada
-        'za',  // South Africa
-        'na',  // Namibia
-        'ke',  // Kenya
-        'tz',  // Tanzania
-        'tr',  // Turkey
-        'ma',  // Morocco
-        'eg',  // Egypt
-        'mx',  // Mexico
-        'cu',  // Cuba
-        'pe',  // Peru
-        'ar',  // Argentina
-        'cl',  // Chile
-        'gb',  // United Kingdom
-        'hr',  // Croatia
-        'nz',  // New Zealand
+        'in', // India
+        'ae', // UAE
+        'ch', // Switzerland
+        'il', // Israel
+        'fr', // France
+        'be', // Belgium
+        'nl', // Netherlands
+        'it', // Italy
+        'va', // Vatican City
+        'my', // Malaysia
+        'us', // US
+        'ca', // Canada
+        'za', // South Africa
+        'na', // Namibia
+        'ke', // Kenya
+        'tz', // Tanzania
+        'tr', // Turkey
+        'ma', // Morocco
+        'eg', // Egypt
+        'mx', // Mexico
+        'cu', // Cuba
+        'pe', // Peru
+        'ar', // Argentina
+        'cl', // Chile
+        'gb', // United Kingdom
+        'hr', // Croatia
+        'nz', // New Zealand
     ]
 
     const visited_states_in_india = [
@@ -55,29 +55,29 @@ $(function () {
     ]
 
     const visited_states_in_us = [
-      'us-pa', // Pennsylvania
-      'us-ny', // New York
-      'us-dc', // DC
-      'us-il', // Illinois 
-      'us-ma', // Massachusetts
-      'us-nj', // New Jersey
-      'us-nh', // New Hampshire
-      'us-ca', // California
-      'us-wa', // Washington
-      'us-nv', // Nevada
-      'us-az', // Arizona
-      'us-ut', // Utah
-      'us-md', // Maryland
-      'us-nc', // North Carolina
-      'us-ga', // Georgia
-      'us-fl', // Florida
-      'us-tx', // Texas
-      'us-la', // Louisiana
-      'us-tn', // Tennessee
-      'us-or', // Oregon
-      'us-co', // Colorado
-      'us-hi', // Hawaii
-      'us-ak'  // Alaska  
+        'us-pa', // Pennsylvania
+        'us-ny', // New York
+        'us-dc', // DC
+        'us-il', // Illinois 
+        'us-ma', // Massachusetts
+        'us-nj', // New Jersey
+        'us-nh', // New Hampshire
+        'us-ca', // California
+        'us-wa', // Washington
+        'us-nv', // Nevada
+        'us-az', // Arizona
+        'us-ut', // Utah
+        'us-md', // Maryland
+        'us-nc', // North Carolina
+        'us-ga', // Georgia
+        'us-fl', // Florida
+        'us-tx', // Texas
+        'us-la', // Louisiana
+        'us-tn', // Tennessee
+        'us-or', // Oregon
+        'us-co', // Colorado
+        'us-hi', // Hawaii
+        'us-ak' // Alaska  
     ];
 
     function getDrilldown(data, visited) {
@@ -88,16 +88,16 @@ $(function () {
     }
 
     // Fetch data
-    var world_data =  Highcharts.geojson(Highcharts.maps['custom/world']);
+    var world_data = Highcharts.geojson(Highcharts.maps['custom/world']);
 
-    var us_data =  Highcharts.geojson(Highcharts.maps['countries/us/us-all']);
+    var us_data = Highcharts.geojson(Highcharts.maps['countries/us/us-all']);
 
-    var india_data =  Highcharts.geojson(Highcharts.maps['countries/in/custom/in-all-disputed']);
+    var india_data = Highcharts.geojson(Highcharts.maps['countries/in/custom/in-all-disputed']);
 
     console.log(india_data);
 
     // Set drilldown pointers
-    $.each(world_data, function (i) {
+    $.each(world_data, function(i) {
 
         if (this.properties[property] == 'us') {
             this.drilldown = getDrilldown(
@@ -119,7 +119,7 @@ $(function () {
         chart: {
             spacingBottom: 20,
             events: {
-                drilldown: function (e) {
+                drilldown: function(e) {
                     if (!e.seriesOptions) {
                         var chart = this;
                         var data = e.point.drilldown;
@@ -140,13 +140,13 @@ $(function () {
                     }
                     chart.setTitle(null, { text: label });
                 },
-                drillup: function () {
+                drillup: function() {
                     this.setTitle(null, { text: 'World' });
                 }
             }
         },
-        title : {
-            text : 'Around the world',
+        title: {
+            text: 'Around the world',
         },
 
         subtitle: {
@@ -185,7 +185,7 @@ $(function () {
             }
         },
 
-        series : [{
+        series: [{
             name: 'World',
             data: world_data,
             dataLabels: {
