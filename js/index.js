@@ -77,7 +77,8 @@ $(function() {
         'us-or', // Oregon
         'us-co', // Colorado
         'us-hi', // Hawaii
-        'us-ak' // Alaska  
+        'us-ak', // Alaska  
+        'us-nm', // New Mexico
     ];
 
     function getDrilldown(data, visited) {
