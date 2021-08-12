@@ -1,4 +1,4 @@
-[mrinalmohit.com/travel](http://mrinalmohit.com/travel)
+[wowitsmrinal.github.io/travel](https://wowitsmrinal.github.io/travel)
 
 Forked from [Sorabh Bajaj](https://github.com/sb2nov)
 
