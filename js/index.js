@@ -29,6 +29,7 @@ $(function() {
         'gb', // United Kingdom
         'hr', // Croatia
         'nz', // New Zealand
+        'pt', // Portugal
     ]
 
     const visited_states_in_india = [
