@@ -32,7 +32,7 @@ $(function() {
         'pt', // Portugal
     ]
 
-    const visited_states_in_india = [
+    const visited_states_in_india = [ // subtract 35
         'in-wb',
         'in-jk',
         'in-hr',
@@ -55,7 +55,7 @@ $(function() {
         'in-2984'
     ]
 
-    const visited_states_in_us = [
+    const visited_states_in_us = [ // subtract 58
         'us-pa', // Pennsylvania
         'us-ny', // New York
         'us-dc', // DC
@@ -80,6 +80,7 @@ $(function() {
         'us-hi', // Hawaii
         'us-ak', // Alaska  
         'us-nm', // New Mexico
+        'us-wy' // Wyoming
     ];
 
     function getDrilldown(data, visited) {
