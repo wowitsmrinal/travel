@@ -30,6 +30,7 @@ $(function() {
         'hr', // Croatia
         'nz', // New Zealand
         'pt', // Portugal
+        'jo', // Jordan
     ]
 
     const visited_states_in_india = [ // subtract 35
