@@ -31,9 +31,12 @@ $(function() {
         'nz', // New Zealand
         'pt', // Portugal
         'jo', // Jordan
+        'hu' // Hungary
+        'at' // Austria
+        'cz' // Czech Republic
     ]
 
-    const visited_states_in_india = [ // subtract 35
+    const visited_states_in_india = [
         'in-wb',
         'in-jk',
         'in-hr',
@@ -56,7 +59,7 @@ $(function() {
         'in-2984'
     ]
 
-    const visited_states_in_us = [ // subtract 58
+    const visited_states_in_us = [
         'us-pa', // Pennsylvania
         'us-ny', // New York
         'us-dc', // DC
