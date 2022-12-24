@@ -31,8 +31,8 @@ $(function() {
         'nz', // New Zealand
         'pt', // Portugal
         'jo', // Jordan
-        'hu' // Hungary
-        'at' // Austria
+        'hu', // Hungary
+        'at', // Austria
         'cz' // Czech Republic
     ]
 
