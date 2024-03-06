@@ -33,7 +33,8 @@ $(function() {
         'jo', // Jordan
         'hu', // Hungary
         'at', // Austria
-        'cz' // Czech Republic
+        'cz', // Czech Republic
+        'jp' // Japan
     ]
 
     const visited_states_in_india = [
@@ -56,7 +57,8 @@ $(function() {
         'in-sk',
         'in-kl',
         'in-an',
-        'in-2984'
+        'in-2984',
+        'in-ga'
     ]
 
     const visited_states_in_us = [
