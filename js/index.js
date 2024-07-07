@@ -34,7 +34,8 @@ $(function() {
         'hu', // Hungary
         'at', // Austria
         'cz', // Czech Republic
-        'jp' // Japan
+        'jp', // Japan
+        'es' // Spain
     ]
 
     const visited_states_in_india = [
