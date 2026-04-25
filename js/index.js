@@ -89,7 +89,8 @@ $(function() {
         'us-hi', // Hawaii
         'us-ak', // Alaska  
         'us-nm', // New Mexico
-        'us-wy' // Wyoming
+        'us-wy', // Wyoming
+        'us-sc' // South Carolina
     ];
 
     function getDrilldown(data, visited) {
