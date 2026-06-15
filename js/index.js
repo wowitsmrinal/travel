@@ -3,41 +3,41 @@ $(function() {
 
     const visited_countries = [ // subtract 4
         'in', // India
-        'ae', // UAE
-        'ch', // Switzerland
-        'il', // Israel
-        'fr', // France
-        'be', // Belgium
-        'nl', // Netherlands
-        'it', // Italy
-        'va', // Vatican City
-        'my', // Malaysia
-        'us', // US
-        'ca', // Canada
-        'za', // South Africa
-        'na', // Namibia
-        'ke', // Kenya
-        'tz', // Tanzania
-        'tr', // Turkey
-        'ma', // Morocco
-        'eg', // Egypt
-        'mx', // Mexico
-        'cu', // Cuba
-        'pe', // Peru
-        'ar', // Argentina
-        'cl', // Chile
-        'gb', // United Kingdom
-        'hr', // Croatia
-        'nz', // New Zealand
-        'pt', // Portugal
-        'jo', // Jordan
-        'hu', // Hungary
-        'at', // Austria
-        'cz', // Czech Republic
-        'jp', // Japan
-        'es', // Spain
-        'np', // Nepal
-        'mc' // Monaco
+        'ae', // UAE 08
+        'ch', // Switzerland 08
+        'il', // Israel 12
+        'fr', // France 13
+        'be', // Belgium 13
+        'nl', // Netherlands 13
+        'it', // Italy 13
+        'va', // Vatican City 13
+        'my', // Malaysia 13
+        'us', // USA 14
+        'ca', // Canada 15
+        'za', // South Africa 17
+        'na', // Namibia 17
+        'ke', // Kenya 17
+        'tz', // Tanzania 17
+        'tr', // Turkey 17
+        'ma', // Morocco 17
+        'eg', // Egypt 17
+        'mx', // Mexico 17
+        'cu', // Cuba 17
+        'pe', // Peru 18
+        'ar', // Argentina 18
+        'cl', // Chile 18
+        'gb', // United Kingdom 19
+        'hr', // Croatia 19
+        'nz', // New Zealand 19
+        'pt', // Portugal 22
+        'jo', // Jordan 22
+        'hu', // Hungary 22
+        'at', // Austria 22
+        'cz', // Czech Republic 22
+        'jp', // Japan 23
+        'es', // Spain 24
+        'np', // Nepal 24
+        'mc' // Monaco 25
     ]
 
     const visited_states_in_india = [
