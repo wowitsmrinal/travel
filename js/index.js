@@ -2,42 +2,42 @@ $(function() {
     const property = 'hc-key';
 
     const visited_countries = [ // subtract 4
-        'in', // India
-        'ae', // UAE 08
-        'ch', // Switzerland 08
-        'il', // Israel 12
-        'fr', // France 13
-        'be', // Belgium 13
-        'nl', // Netherlands 13
-        'it', // Italy 13
-        'va', // Vatican City 13
-        'my', // Malaysia 13
-        'us', // USA 14
-        'ca', // Canada 15
-        'za', // South Africa 17
-        'na', // Namibia 17
-        'ke', // Kenya 17
-        'tz', // Tanzania 17
-        'tr', // Turkey 17
-        'ma', // Morocco 17
-        'eg', // Egypt 17
-        'mx', // Mexico 17
-        'cu', // Cuba 17
-        'pe', // Peru 18
-        'ar', // Argentina 18
-        'cl', // Chile 18
-        'gb', // United Kingdom 19
-        'hr', // Croatia 19
-        'nz', // New Zealand 19
-        'pt', // Portugal 22
-        'jo', // Jordan 22
-        'hu', // Hungary 22
-        'at', // Austria 22
-        'cz', // Czech Republic 22
-        'jp', // Japan 23
-        'es', // Spain 24
-        'np', // Nepal 24
-        'mc' // Monaco 25
+        'in', // India - Lived 22 years
+        'ae', // UAE 08 - 1
+        'ch', // Switzerland 08 - 2
+        'il', // Israel 12 - 2
+        'fr', // France 13 - 4
+        'be', // Belgium 13 - 1
+        'nl', // Netherlands 13 - 2
+        'it', // Italy 13 - 4
+        'va', // Vatican City 13 - 2
+        'my', // Malaysia 13 - 1
+        'us', // USA 14 - Lived 11 years
+        'ca', // Canada 15 - 3
+        'za', // South Africa 17 - 1
+        'na', // Namibia 17 - 1
+        'ke', // Kenya 17 - 1
+        'tz', // Tanzania 17 - 1
+        'tr', // Turkey 17 - 2
+        'ma', // Morocco 17 - 1
+        'eg', // Egypt 17 - 1
+        'mx', // Mexico 17 - 2
+        'cu', // Cuba 17 - 1
+        'pe', // Peru 18 - 1
+        'ar', // Argentina 18 - 1
+        'cl', // Chile 18 - 1
+        'gb', // United Kingdom 19 - 3
+        'hr', // Croatia 19 - 1
+        'nz', // New Zealand 19 - 1
+        'pt', // Portugal 22 - 1
+        'jo', // Jordan 22 - 1
+        'hu', // Hungary 22 - 1
+        'at', // Austria 22 - 1
+        'cz', // Czech Republic 22 - 1
+        'jp', // Japan 23 - 1
+        'es', // Spain 24 - 1
+        'np', // Nepal 24 - 1
+        'mc' // Monaco 25 - 1
     ]
 
     const visited_states_in_india = [
@@ -65,32 +65,32 @@ $(function() {
     ]
 
     const visited_states_in_us = [
-        'us-pa', // Pennsylvania
-        'us-ny', // New York
-        'us-dc', // DC
-        'us-il', // Illinois 
-        'us-ma', // Massachusetts
-        'us-nj', // New Jersey
-        'us-nh', // New Hampshire
-        'us-ca', // California
-        'us-wa', // Washington
-        'us-nv', // Nevada
-        'us-az', // Arizona
-        'us-ut', // Utah
-        'us-md', // Maryland
-        'us-nc', // North Carolina
-        'us-ga', // Georgia
-        'us-fl', // Florida
-        'us-tx', // Texas
-        'us-la', // Louisiana
-        'us-tn', // Tennessee
-        'us-or', // Oregon
-        'us-co', // Colorado
-        'us-hi', // Hawaii
-        'us-ak', // Alaska  
-        'us-nm', // New Mexico
-        'us-wy', // Wyoming
-        'us-sc' // South Carolina
+        'us-pa', // Pennsylvania - 2
+        'us-ny', // New York - 8
+        'us-dc', // DC - 3
+        'us-il', // Illinois - 2
+        'us-ma', // Massachusetts - Lived 2 years
+        'us-nj', // New Jersey - 2
+        'us-nh', // New Hampshire - 2
+        'us-ca', // California - Lived 9 years
+        'us-wa', // Washington - 5
+        'us-nv', // Nevada - 2
+        'us-az', // Arizona - 2
+        'us-ut', // Utah - 2
+        'us-md', // Maryland - 1
+        'us-nc', // North Carolina - 1
+        'us-ga', // Georgia - 2
+        'us-fl', // Florida - 2
+        'us-tx', // Texas - 2
+        'us-la', // Louisiana - 2
+        'us-tn', // Tennessee - 2
+        'us-or', // Oregon - 3
+        'us-co', // Colorado - 4
+        'us-hi', // Hawaii - 3
+        'us-ak', // Alaska - 1
+        'us-nm', // New Mexico - 2
+        'us-wy', // Wyoming - 1
+        'us-sc' // South Carolina - 2
     ];
 
     function getDrilldown(data, visited) {
